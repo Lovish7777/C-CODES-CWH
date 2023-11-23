@@ -2,14 +2,14 @@
 #include<stdio.h>
 int main()
 {
-int n,i=1;
+int n,i=0;
 printf("enter number of terms: ");
 scanf("%d",&n);
 do
 {
-    printf("\n%d",i);
+    printf("\n%d",i+1);
     i++;
 }
-while(i<=n);
+while(i<n);
 return 0;
 }
