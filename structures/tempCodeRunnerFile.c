@@ -1,0 +1,1 @@
+pikachu.hp=90;
